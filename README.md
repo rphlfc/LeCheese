@@ -1,5 +1,5 @@
 # LeCheese
-Essa é uma implementação utilizando SwiftUI do aplicativo [LeCheese](https://lecheese.app) do [Zeno Rocha](https://zenorocha.com) usando Swift 2 e MatchedGeometryEffect. 
+Essa é uma implementação utilizando SwiftUI do aplicativo [LeCheese](https://lecheese.app) do [Zeno Rocha](https://zenorocha.com) usando Swift 2 e MatchedGeometryEffect que só está disponível a partir do iOS 14. 
 
 ## Screenshots
 <p align="center">
