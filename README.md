@@ -3,7 +3,8 @@ Essa é uma implementação utilizando SwiftUI do aplicativo [LeCheese](https://
 
 ## Screenshots
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/16376748/90652488-7f3aba80-e214-11ea-918f-68b8d2f369df.png" width="400">&nbsp;
+    <img src="https://user-images.githubusercontent.com/16376748/90695966-d743e200-e251-11ea-8451-36ea67750df5.png" width="400">&nbsp;
+    <img src="https://user-images.githubusercontent.com/16376748/90695962-d4e18800-e251-11ea-98e6-d95ccac2e937.png" width="400">
 </p>
 
 ## Vídeo
