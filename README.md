@@ -7,9 +7,6 @@ Essa é uma implementação utilizando SwiftUI do aplicativo [LeCheese](https://
     <img src="https://user-images.githubusercontent.com/16376748/90695962-d4e18800-e251-11ea-98e6-d95ccac2e937.png" width="400">
 </p>
 
-## Vídeo
-[Vídeo no YouTube](https://youtu.be/0HlA4nO3JZU)
-
 ## Requisitos
 - iOS 14
 - SwiftUI 2
