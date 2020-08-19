@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6430784F24E3650700293929 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6430784E24E3650700293929 /* DetailsView.swift */; };
+		6430785124E370F800293929 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6430785024E370F800293929 /* README.md */; };
+		6430785524E43C1D00293929 /* Cheese.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6430785424E43C1D00293929 /* Cheese.swift */; };
+		6430785824E43EED00293929 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6430785724E43EED00293929 /* Feed.swift */; };
+		646DCAB924EDD5D200B8344D /* ReviewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646DCAB824EDD5D200B8344D /* ReviewsView.swift */; };
 		64893ECB24E2F9AE006CA885 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64893ECA24E2F9AE006CA885 /* AppDelegate.swift */; };
 		64893ECD24E2F9AE006CA885 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64893ECC24E2F9AE006CA885 /* SceneDelegate.swift */; };
 		64893ECF24E2F9AE006CA885 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64893ECE24E2F9AE006CA885 /* ContentView.swift */; };
 		64893ED124E2F9B1006CA885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64893ED024E2F9B1006CA885 /* Assets.xcassets */; };
 		64893ED424E2F9B1006CA885 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64893ED324E2F9B1006CA885 /* Preview Assets.xcassets */; };
 		64893ED724E2F9B1006CA885 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64893ED524E2F9B1006CA885 /* LaunchScreen.storyboard */; };
+		64893EE324E32186006CA885 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64893EE224E32186006CA885 /* SearchView.swift */; };
+		64893EE524E321AC006CA885 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64893EE424E321AC006CA885 /* ScanView.swift */; };
+		64893EE724E321C1006CA885 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64893EE624E321C1006CA885 /* ProfileView.swift */; };
+		64893EE924E32A4B006CA885 /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64893EE824E32A4B006CA885 /* ReportView.swift */; };
+		64893EEB24E33309006CA885 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64893EEA24E33309006CA885 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6430784E24E3650700293929 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		6430785024E370F800293929 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6430785424E43C1D00293929 /* Cheese.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cheese.swift; sourceTree = "<group>"; };
+		6430785724E43EED00293929 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		646DCAB824EDD5D200B8344D /* ReviewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsView.swift; sourceTree = "<group>"; };
 		64893EC724E2F9AD006CA885 /* LeCheese.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeCheese.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64893ECA24E2F9AE006CA885 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64893ECC24E2F9AE006CA885 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +39,11 @@
 		64893ED324E2F9B1006CA885 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		64893ED624E2F9B1006CA885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64893ED824E2F9B1006CA885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64893EE224E32186006CA885 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		64893EE424E321AC006CA885 /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		64893EE624E321C1006CA885 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		64893EE824E32A4B006CA885 /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
+		64893EEA24E33309006CA885 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,9 +57,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6406836F24E34FBD0070DAB3 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				646DCAB824EDD5D200B8344D /* ReviewsView.swift */,
+				64893EE224E32186006CA885 /* SearchView.swift */,
+				64893EE424E321AC006CA885 /* ScanView.swift */,
+				64893EE624E321C1006CA885 /* ProfileView.swift */,
+				64893EE824E32A4B006CA885 /* ReportView.swift */,
+				64893EEA24E33309006CA885 /* HomeView.swift */,
+				6430784E24E3650700293929 /* DetailsView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		6430785624E43D6000293929 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				6430785424E43C1D00293929 /* Cheese.swift */,
+				6430785724E43EED00293929 /* Feed.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
 		64893EBE24E2F9AD006CA885 = {
 			isa = PBXGroup;
 			children = (
+				6430785024E370F800293929 /* README.md */,
 				64893EC924E2F9AD006CA885 /* LeCheese */,
 				64893EC824E2F9AD006CA885 /* Products */,
 			);
@@ -56,6 +100,8 @@
 		64893EC924E2F9AD006CA885 /* LeCheese */ = {
 			isa = PBXGroup;
 			children = (
+				6430785624E43D6000293929 /* models */,
+				6406836F24E34FBD0070DAB3 /* views */,
 				64893ECA24E2F9AE006CA885 /* AppDelegate.swift */,
 				64893ECC24E2F9AE006CA885 /* SceneDelegate.swift */,
 				64893ECE24E2F9AE006CA885 /* ContentView.swift */,
@@ -102,7 +148,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Raphael Cerqueira";
 				TargetAttributes = {
 					64893EC624E2F9AD006CA885 = {
@@ -135,6 +181,7 @@
 			files = (
 				64893ED724E2F9B1006CA885 /* LaunchScreen.storyboard in Resources */,
 				64893ED424E2F9B1006CA885 /* Preview Assets.xcassets in Resources */,
+				6430785124E370F800293929 /* README.md in Resources */,
 				64893ED124E2F9B1006CA885 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,8 +193,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				646DCAB924EDD5D200B8344D /* ReviewsView.swift in Sources */,
+				64893EE324E32186006CA885 /* SearchView.swift in Sources */,
 				64893ECB24E2F9AE006CA885 /* AppDelegate.swift in Sources */,
+				6430784F24E3650700293929 /* DetailsView.swift in Sources */,
+				64893EE524E321AC006CA885 /* ScanView.swift in Sources */,
+				6430785824E43EED00293929 /* Feed.swift in Sources */,
 				64893ECD24E2F9AE006CA885 /* SceneDelegate.swift in Sources */,
+				64893EE924E32A4B006CA885 /* ReportView.swift in Sources */,
+				6430785524E43C1D00293929 /* Cheese.swift in Sources */,
+				64893EEB24E33309006CA885 /* HomeView.swift in Sources */,
+				64893EE724E321C1006CA885 /* ProfileView.swift in Sources */,
 				64893ECF24E2F9AE006CA885 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -192,6 +248,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -252,6 +309,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -288,11 +346,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LeCheese/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = LeCheese/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.rphlfc.LeCheese;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.rphlfc.LeCheese;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,11 +366,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LeCheese/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = LeCheese/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.rphlfc.LeCheese;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.rphlfc.LeCheese;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

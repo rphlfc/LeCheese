@@ -9,8 +9,51 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    init() {
+        let color = UIColor(red: 249/255, green: 218/255, blue: 73/255, alpha: 1.0)
+        UITabBar.appearance().barTintColor = color
+    }
+    
+    @State var isMenuVisible = false
+    
     var body: some View {
-        Text("Hello, World!")
+        ZStack {
+            TabView {
+                HomeView(report: self.report, feed: feedData[0])
+                    .tabItem {
+                        Image(systemName: "house")
+                        Text("Home")
+                }
+                
+                SearchView()
+                    .tabItem {
+                        Image(systemName: "magnifyingglass")
+                        Text("Search")
+                }
+                
+                ScanView()
+                    .tabItem {
+                        Image(systemName: "camera")
+                        Text("Scan")
+                }
+                
+                ProfileView()
+                    .tabItem {
+                        Image(systemName: "person")
+                        Text("Profile")
+                }
+            }
+            .accentColor(.black)
+            
+            if self.isMenuVisible {
+                ReportView(isVisible: $isMenuVisible)
+            }
+        }
+    }
+    
+    func report() {
+        self.isMenuVisible.toggle()
     }
 }
 
